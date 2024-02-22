@@ -1,7 +1,7 @@
 :root {
     --bs-font-sans-serif: Roboto, sans-serif;
     --bs-body-font-weight: 400;
-    --bs-body-color: #858585;
+    --bs-body-color: #8F8F8F;
     --bs-body-color-rgb: 133, 133, 133;
     --light-color: #D9D9D9;
     --bs-body-font-size: 1.2rem;
@@ -11,10 +11,11 @@
 a {
     word-break: break-word;
     text-decoration: none;
+    color: #458CB0;
 }
 
 h1, h2, h3, h4 {
-    color: #000000;
+    color: #E0001E;
 }
 
 @media print {
@@ -42,12 +43,16 @@ h1, h2, h3, h4 {
         border: none;
     }
 
+    .prosuite-logo{
+        display: none;
+    }
+
     .card-body {
         padding: 0;
     }
 
     .badge {
-        border: 0.07rem solid #868e96;
+        border: 0.07rem solid #8F8F8F;
         color: inherit;
         background-color: inherit;
     }
@@ -166,4 +171,33 @@ h1, h2, h3, h4 {
     display: block;
     content: '★★★★★';
     color: gold;
+}
+
+.secondary-color{
+    color: #292F36;
+}
+
+.border-dark{
+    border-color: #292F36 !important;
+}
+
+.lang-logo{
+    width: 48px;
+    height: 48px;
+}
+
+.logo-container{
+    padding: 4px 4px 4px 24px !important;
+}
+
+.pb-a{
+    page-break-before: auto;
+}
+
+.prosuite-logo{
+    width: 100%;
+}
+
+.reference{
+    padding-left: 12px;
 }
